@@ -1,0 +1,275 @@
+
+
+.carousel,.carousel-inner,.active,.carousel-item,.view,body,html,.header{height:100%}
+.navbar{background-color:rgba(0,0,0,.4)}
+.page-footer,.top-nav-collapse{background-color:#656b73}
+
+@media only screen and (max-width:768px) {
+  .navbar{
+    background-color:#656b73
+  }
+  
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background:#656b73 !important;
+  }
+}
+
+#qqq {
+    background-image: url('../pics/mercedes.jpg'); background-repeat: no-repeat fluid center center fixed; background-size: cover;
+  }
+
+#qq {
+      background-image: url('../pics/hund.jpg'); background-repeat: no-repeat; background-size: cover;
+  }
+  
+#q {
+  background-image: url("../pics/tesla.jpg"); background-repeat: no-repeat; background-size: cover;
+}
+
+#cards {
+    background-image: url('../pics/zapchasti-dvigatel-kolenval.jpg');background-repeat: no-repeat; background-size: cover;
+}
+.mt {
+    margin-top: 6%;
+    margin-bottom: 14%;
+    padding-bottom: 16%;
+}
+
+#jumbo {
+  background-image: url('../pics/ferrari-458-italia-svet-blik.jpg'); background-repeat: no-repeat; background-size: cover;
+  padding-top: 84px;
+  padding-bottom: 180px;
+  ;;
+}
+.card {
+  float: left;
+  margin-top: 4%;
+
+}
+.wow {
+  margin-left: 3%;
+  margin-right:3%;
+  float: left;
+}
+@media (min-width: 800px) {
+  #about {
+    background-image: url('../pics/gonochnyi-avtomobil-porshe-motosport-2019-motorsports-porsch.jpg');background-repeat: no-repeat; background-size: cover;
+    height:100%;
+    padding-top: 84px;
+
+  }
+}
+
+#ff {
+  padding-top: 50px ;
+}
+#fff {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@media (max-width: 768px) {
+  #about {
+    background-image: url('../pics/gonochnyi-avtomobil-porshe-motosport-2019-motorsports-porsch.jpg');background-repeat: no-repeat; background-size: cover;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+#why {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 1cm;
+}
+@media (max-width: 768px) {
+  #why {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1cm;
+  }
+}
+#photo {
+  height: 300px;
+  width: 300px;;
+}
+#int {
+  margin-top: 7%;
+}
+@media (min-width: 800px) {
+  #pages {
+    margin-left: 42%;
+  }
+}
+@media (max-width:768px) {
+  #pages {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 800px) {
+  #form {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 84px;
+    background: rgba(0,0,0,.4);
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  #form {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 100px;
+    background: rgba(0,0,0,.4);
+    margin-bottom: 0%;
+  }
+}
+
+
+#signup {
+  background-image: url('../pics/bugatti-chiron-super-sport-300-giperkar-asfalt-trek-derevia.jpg'); background-repeat: no-repeat;background-size: cover;
+}
+#signupnew {
+  background-image: url('../pics/lol.jpg'); background-repeat: no-repeat; background-size: cover;
+}
+#pad {
+  padding-bottom: 20%;
+}
+#link {
+  color: green;;
+}
+#link:hover {
+  color: coral;
+}
+
+#form8::placeholder {
+  color: #ffffff;
+  opacity: 2;
+}
+#form8:invalid:not(:placeholder-shown) {border-color: red;
+  border-width: 1px;}
+#form8:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 1px;}
+#form81::placeholder {
+  color: #ffffff;
+  opacity: 2;
+}
+#form9::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+#span1 {
+  color: coral;
+}
+#span2 {
+  color: coral;
+}
+#span3 {
+  color:green;
+}
+#password1:invalid:not(:placeholder-shown) {border-color: red;
+border-width: 3px;}
+#password1:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#confirm_password:invalid:not(:placeholder-shown) {border-color:red;
+  border-width: 3px;}
+#confirm_password:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#email:invalid:not(:placeholder-shown) {border-color: red;
+  border-width: 3px;}
+#email:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#FirstName:invalid:not(:placeholder-shown) {border-color:red;
+  border-width: 3px;}
+#FirstName:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#LastName:not(:placeholder-shown) {border-color: red;
+  border-width: 3px;}
+#LastName:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#form8:invalid:not(:placeholder-shown) {border-color:red;
+  border-width: 3px;}
+#form8:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#form81:not(:placeholder-shown) {border-color: red;
+  border-width: 3px;}
+#form81:valid:not(:placeholder-shown) {border-color:greenyellow;
+  border-width: 3px;}
+#ques {
+  margin-top: 10%;
+}
+#ques1 {
+  background-color:rgba(0,0,0,.4);
+  margin-top: 36px;
+  
+}
+#ques2 {
+  background-color:rgba(0,0,0,.4);
+}
+#ques3 {
+  background-color:rgba(0,0,0,.4);
+  
+}
+#article {
+  width: auto;
+}
+#content {
+  width: auto;
+}
+#questionpage {
+  background-color: #51565a;
+  
+  /* background-image: url('../pics/ferrari-458-italia-svet-blik.jpg'); background-repeat: no-repeat; background-size: cover; */
+}
+#pikcha {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+  text-align: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: orange;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: rgba(0,0,0,.4);}
+
+.pagination2 {
+  display: inline-block;
+  text-align: center;
+}
+
+.pagination2 a {
+  color:white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination2 a.active {
+  background-color:orange;
+  color: white;
+}
+
+.pagination2 a:hover:not(.active) {background-color: orange;}
+
+.jsval {
+  color: red;
+}
+#steely {
+  background-color: #51565a;
+}
